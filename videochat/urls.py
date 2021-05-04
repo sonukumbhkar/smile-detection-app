@@ -18,5 +18,7 @@ from django.urls import path
 from videochat import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('stream_path',views.dynamic_stream,name='videostream'),
+    path('',views.index, name='index.html')
 ]
+
