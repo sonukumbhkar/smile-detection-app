@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-jnd-i6n_g)ut^$e5@4=*!velyec(jipk(n5vdcgop+#1h@!0zm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['videochitchat.herokuapp.com','127.0.0.1']
 
 
 # Application definition
