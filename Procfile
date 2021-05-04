@@ -1,1 +1,1 @@
-web: gunicorn videochat.wsgi
+web: gunicorn videochat.wsgi --log-file -
